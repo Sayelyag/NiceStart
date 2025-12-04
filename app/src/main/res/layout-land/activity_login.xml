@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/estrellas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/estrellas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/estrellas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="140dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#80FFFFFF"
+        android:textColor="@color/marron"
+        android:hint="Username"
+        android:drawableStart="@drawable/personita_2"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@id/estrellas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#80FFFFFF"
+        android:drawableStart="@drawable/baseline_vpn_key_24"
+        android:drawableEnd="@drawable/outline_cyclone_24"
+        android:layout_marginTop="24dp"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/marron"
+        android:text="LOGIN"
+        android:textColor="@color/azulVer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <Button
+        android:id="@+id/signup"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:text="SIGN UP"
+        android:textColor="@color/marron"
+        android:backgroundTint="@android:color/transparent"
+        app:strokeColor="@color/marron"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        android:onClick="OpenSignup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/estrellas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/estrellas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilUsername"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="#80FFFFFF"
+        android:hint="Username"
+        app:startIconDrawable="@drawable/personita_2"
+        app:layout_constraintTop_toBottomOf="@id/estrellas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/marron"
+        android:inputType="textPersonName"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:paddingStart="48dp"
+            android:textColor="@color/marron"
+            android:textColorHint="@color/marron" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="#80FFFFFF"
+        android:hint="Password"
+        app:startIconDrawable="@drawable/baseline_vpn_key_24"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/tilUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:paddingStart="48dp"
+            android:textColor="@color/marron"
+            android:textColorHint="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/marron"
+        android:text="LOGIN"
+        android:textColor="@color/azulVer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilPassword"
+        android:onClick="OpenMain"/>
+
+    <Button
+        android:id="@+id/signup"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:text="SIGN UP"
+        android:textColor="@color/marron"
+        android:backgroundTint="@android:color/transparent"
+        app:strokeColor="@color/marron"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        android:onClick="OpenSignup"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
