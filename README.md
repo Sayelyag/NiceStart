@@ -3,10 +3,22 @@
 NiceStart es una aplicación móvil desarrollada en Android Studio, utilizando Material Components y ConstraintLayout.
 Su objetivo es ofrecer una interfaz moderna y atractiva, incluyendo pantallas de bienvenida (splash), login y registro, brindando al usuario una experiencia visual coherente y profesional.
 
+## Índice
+1. [Paleta de colores](#paleta-de-colores)
+2. [Pantalla Inicio](#pantalla-inicio)
+3. [Pantalla Login](#pantalla-login)
+4. [Pantalla de Registro (Signup)](#pantalla-de-registro-signup)
+5. [Icono de la App](#icono-de-la-app)
+6. [Perfil](#perfil)
+7. [Pantalla principal](#pantalla-principal)
+8. [Opciones](#opciones)
+9. [Animacion del logo](#animacion-del-logo)
+10. [Licencia](#licencia)
+
 ## 1. Paleta de coolores
 ## Paleta de colores
 
-| Nombre       | Código Hex | Uso en la app                            |
+| Nombre       | Código Hex | Uso en la app                          |
 |-------------|------------|-----------------------------------------|
 | White       | #FFFFFF    | Fondo de pantallas y texto sobre oscuro |
 | Black       | #000000    | Texto principal y títulos               |
