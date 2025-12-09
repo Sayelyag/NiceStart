@@ -47,3 +47,5 @@ Funcionalidad:
 - Muestra la información básica del usuario dentro de la aplicación.
 - Incluye un avatar o imagen de perfil en la parte superior, acompañado del nombre del usuario.
 - Está diseñada utilizando ConstraintLayout y elementos de Material Design, manteniendo coherencia visual con el resto de pantallas.
+
+Pequeño comentario hecho por Saif
