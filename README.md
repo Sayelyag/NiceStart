@@ -48,7 +48,6 @@ Funcionalidad:
 - Incluye un botón SIGN UP que guarda la información del usuario y lo dirige de vuelta al login o a la pantalla principal según el flujo de la app.
 
 ## 5. Icono de la App
-App Icon
 <img width="252" height="69" alt="image" src="https://github.com/user-attachments/assets/bb6ea512-f723-4d12-b760-4b41e6b94dd2" />
 
 
