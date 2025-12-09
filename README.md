@@ -70,9 +70,9 @@ Funcionalidad:
 ## 7. Pantalla principal
 <img width="381" height="853" alt="image" src="https://github.com/user-attachments/assets/4a1a49d6-05f0-46a2-b117-643907f4a69c" />
 
-## 8. Opcoiones
+## 8. Opciones
 <img width="316" height="178" alt="image" src="https://github.com/user-attachments/assets/e63f2919-053b-4b52-a5b4-ff782a2c5df5" />
-- Sign Out tr llrva a la pantalla de Login
+- Sign Out te lleva a la pantalla de Login
 - Cancelar quita el mensaje
 
 
