@@ -6,8 +6,7 @@
 
     <style name="Base.Theme.NiceStart.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
     </style>
-
-    <item name="ActionBarStyle" type="style">@style/TransparentActionBar</item>
+¡<!--    <item name="ActionBarStyle" type="style">@style/TransparentActionBar</item>-->
     <style name="TransparentActionBar" parent="Widget.AppCompat.ActionBar">
         <item name="android:windowIsTranslucent">true</item>
 

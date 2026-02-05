@@ -9,4 +9,24 @@
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:backgroundTint">@color/azulVer</item>
     </style>
+
+    <style name="buttonflat">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">@color/button_custom</item>
+        <item name="android:textColor">@color/acuaMar</item>
+    </style>
+
+    <style name="buttonoutlinedalter" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="strokeColor">@color/acuaMar</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Theme.NiceStart.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">@color/button_custom</item>
+        <item name="android:textColor">@color/acuaMar</item>
+    </style>
 </resources>

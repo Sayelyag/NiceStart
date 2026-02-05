@@ -40,24 +40,24 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp">
 
-                <ImageView
-                    android:id="@+id/back_arrow"
-                    android:layout_width="28dp"
-                    android:layout_height="28dp"
-                    android:src="@drawable/outline_arrow_back_ios_24"
-                    android:contentDescription="Volver"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"/>
+<!--                <ImageView-->
+<!--                    android:id="@+id/back_arrow"-->
+<!--                    android:layout_width="28dp"-->
+<!--                    android:layout_height="28dp"-->
+<!--                    android:src="@drawable/outline_arrow_back_ios_24"-->
+<!--                    android:contentDescription="Volver"-->
+<!--                    android:layout_alignParentStart="true"-->
+<!--                    android:layout_centerVertical="true"/>-->
 
-                <TextView
-                    android:id="@+id/title"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/app_name"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:layout_centerInParent="true"/>
+<!--                <TextView-->
+<!--                    android:id="@+id/title"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/app_name"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:layout_centerInParent="true"/>-->
             </RelativeLayout>
         </LinearLayout>
 

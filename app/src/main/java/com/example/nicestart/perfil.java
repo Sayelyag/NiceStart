@@ -20,14 +20,14 @@ public class perfil extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_perfil);
 
-        findViewById(R.id.back_arrow).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Vuelve al MainActivity
-                Intent intent = new Intent(perfil.this, MainActivity.class);
-                startActivity(intent);
-                finish(); // opcional, para cerrar el perfil
-            }
-        });
+//        findViewById(R.id.back_arrow).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // Vuelve al MainActivity
+//                Intent intent = new Intent(perfil.this, MainActivity.class);
+//                startActivity(intent);
+//                finish(); // opcional, para cerrar el perfil
+//            }
+//        });
     }
 }

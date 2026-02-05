@@ -13,10 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NiceStart">
         <activity
+            android:name=".MyBottomSheet"
+            android:exported="false" />
+        <activity
+            android:name=".MainBn"
+            android:exported="false" />
+        <activity
+            android:name=".MainBab"
+            android:exported="false" />
+        <activity
             android:name=".perfil"
             android:exported="true"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Base.Theme.NiceStart"/>
+            android:theme="@style/Base.Theme.NiceStart" />
         <activity
             android:name=".Principal"
             android:exported="true"

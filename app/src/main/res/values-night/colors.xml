@@ -2,9 +2,9 @@
 <resources>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="marrondark">#1A0000</color>
-    <color name="azulverdark">#1C3A37</color>
-    <color name="celestedark">#94BDB8</color>
-    <color name="acuamardark">#416D64</color>
-    <color name="turquesadark">#194E48</color>
+    <color name="marron">#1A0000</color>
+    <color name="azulver">#1C3A37</color>
+    <color name="celeste">#94BDB8</color>
+    <color name="acuamar">#416D64</color>
+    <color name="turquesa">#194E48</color>
 </resources>
